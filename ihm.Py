@@ -41,7 +41,7 @@ class Application(tk.Frame):
     # log : string
     # passcrypt : string
     # no return 
-    # test la combinaison avec le choix stocké sur la variable "choix" et l'affiche sur sur l'interface a droite de résultat
+    # teste la combinaison avec le choix stocké sur la variable "choix" et l'affiche sur l'interface à droite de résultat
     def appeldegen(self,choix,log,passcrypt):
 
       
@@ -99,7 +99,7 @@ class Application(tk.Frame):
 
     # f : frame
     # no return 
-    # ajoute le bouton choix1
+    # ajoute le bouton choix3
     def addChoix3(self,f):
       
       self.bouton3 = tk.Radiobutton(f)
@@ -111,7 +111,7 @@ class Application(tk.Frame):
 
     # f : frame
     # no return 
-    # ajoute le bouton choix3
+    # ajoute le bouton choix4
     def addChoix4(self,f):
 
       self.bouton4 = tk.Radiobutton(f)
@@ -123,7 +123,7 @@ class Application(tk.Frame):
 
     # f : frame
     # no return 
-    # ajoute le bouton choix4
+    # ajoute le bouton choix5
     def addChoix5(self,f):
 
       self.bouton5 = tk.Radiobutton(f)
@@ -135,7 +135,7 @@ class Application(tk.Frame):
 
     # f : frame
     # no return 
-    # ajoute le bouton choix5
+    # ajoute le bouton choix6
     def addChoix6(self,f):
 
       self.bouton6 = tk.Radiobutton(f)
@@ -147,7 +147,7 @@ class Application(tk.Frame):
 
     # f : frame
     # no return 
-    # ajoute le bouton choix6
+    # ajoute le bouton choix7
     def addChoix7(self,f):
 
       self.bouton7 = tk.Radiobutton(f)
@@ -159,7 +159,7 @@ class Application(tk.Frame):
 
     # f : frame
     # no return 
-    # ajoute le bouton choix7
+    # ajoute le bouton Lancer la recherche
     def startSearch(self,f):
 
       self.search = tk.Button(f)

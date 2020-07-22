@@ -20,7 +20,7 @@ class Generation:
     # login : string
     # hashpass : string 
     # return : string
-    # permet de trouvé le mot de passe en fonction du login et du hashpass de quatre manière différentes 
+    # permet de trouver le mot de passe en fonction du login et du hashpass de quatre manières différentes
     def choix1(self, login, hashpass):
         years = range(1950, 2020, 1)
         alphabet = string.ascii_letters
@@ -88,7 +88,7 @@ class Generation:
 
     # hashpass : string
     # return : string
-    # on test tous les mots contenus dans self.animaux_list en mettant ou non la premier lettre en majuscule et en mettant devant ou derrière
+    # on teste tous les mots contenus dans self.animaux_list en mettant ou non la première lettre en majuscule et en mettant devant ou derrière un nombre
     # un chiffre allant 0 a 999 
     def choix4(self,hashpass):
       for ani in self.animaux_list:
@@ -106,7 +106,7 @@ class Generation:
 
     # hashpass : string
     # return : string 
-    # on remplace toutes les voyelles par un chiffre puis on passe les consones en majuscules pour tous le contenu de self.animaux_list
+    # on remplace toutes les voyelles par un chiffre puis on passe les consones en majuscules pour tout le contenu de self.animaux_list
     def choix5(self,hashpass):
 
       for ani in self.animaux_list:
@@ -136,7 +136,7 @@ class Generation:
 
     # hashpass : string
     # return : string 
-    # on essaie toutes les combinaison de deux mot contenu dans self.animaux_list
+    # on essaie toutes les combinaisons de deux mots contenus dans self.animaux_list
     def choix7(self,hashpass):
       for ani1 in self.animaux_list:
         for ani2 in self.animaux_list:
