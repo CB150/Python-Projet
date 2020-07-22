@@ -10,6 +10,8 @@ class Generation:
         animaux_file = open(path_animaux, 'r')
         for line in animaux_file:
           self.animaux_list.append(line)
+            #self.animaux_list.append(line.encode("iso-8859-1").decode("utf-8"))
+            #cette manip permet d'enlever les erreurs d'encodage du fichier mais elle ne fonctionne pas pour moi, mais elle fonctionne pour d'autres
         for i in range(len(self.animaux_list)-1):
           self.animaux_list[i]=self.animaux_list[i][:-1]
 
